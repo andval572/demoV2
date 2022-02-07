@@ -15,6 +15,20 @@ class JuegoRepository {
             Juego(8,"¿ DE QUE PAIS ES LA FAMOSA MARCA DE COCHES FERRARI ?","JAPON","COLOMBIA","ITALIA","ESPAÑA"),
             Juego(9,"¿ DE QUE PAIS ES EL CANTANTE DADDY YANKEE ?","JAPON","COLOMBIA","ALEMANIA","PUERTO RICO")
         )
+    var listaRespuestas = mutableListOf(
+
+        Respuestas(0,"d"),
+        Respuestas(1,"a"),
+        Respuestas(2,"c"),
+        Respuestas(3,"a"),
+        Respuestas(4,"a"),
+        Respuestas(5,"c"),
+        Respuestas(6,"a"),
+        Respuestas(7,"b"),
+        Respuestas(8,"c"),
+        Respuestas(9,"d")
+
+    )
 
     }
 }

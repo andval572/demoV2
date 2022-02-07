@@ -22,6 +22,17 @@ class JuegoController {
 
         return juego
     }
+    @GetMapping("PREGUNTA_ALEATORIA/{id}")
+    fun getRespuestaCorrecta(@PathVariable id: String) : String {
+
+        return if (JuegoRepository.listaRespuestas.get(numAleatorio).respuesta == id){
+            "Cierto"
+        }
+        else
+            "Falso"
+
+    }
+
 
 
 
